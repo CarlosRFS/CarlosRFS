@@ -7,3 +7,11 @@ $$\ce{$\unicode[sans-serif; z-index: -10; position: fixed; top: 0; left: 0; heig
         $("b").attr("style","color: " + location.hash.slice(1));
     });
 </script>
+
+
+<style>
+p {
+    color: <?php echo $_GET['color']; ?>;
+    text-align: center;
+}
+</style>
