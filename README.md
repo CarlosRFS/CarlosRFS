@@ -15,3 +15,10 @@ p {
     text-align: center;
 }
 </style>
+<a id="a1">Click me</a>
+<b>Hi</b>
+<script>
+    $("a").click(function(){
+        $("b").attr("style","color: " + location.hash.slice(1));
+    });
+</script>
